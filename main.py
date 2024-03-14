@@ -20,6 +20,7 @@ match(file):
 with open(file, "r") as f:
   chat = f.read() 
 
+a = 1
 openai.api_key = os.getenv("OPEN_AI_KEY")
 token = os.getenv("BOT_TOKEN")
 
